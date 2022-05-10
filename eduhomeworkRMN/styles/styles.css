@@ -1,0 +1,52 @@
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  #active {
+    background-color: rgb(222, 115, 195);;
+    color: rgb(222, 115, 195);;
+  }
+  body {
+    text-align: center;
+    background-color: rgb(222, 115, 195);
+  }
+  nav {
+    text-align: center;
+    background-color: rgb(222, 115, 195);
+    padding: 10px;
+  }
+  a{
+      font-size: 1.5em;
+      color: black;
+      margin: 40px;
+    }
+    h1 {
+      text-align: center;
+      background-color: rgb(222, 115, 195);
+    }
+    h2 {
+      text-align: center;
+      background-color: rgb(222, 115, 195);
+    }
+    h3 {
+      text-align: center;
+      background-color: rgb(222, 115, 195);
+    }
+    h4 {
+      text-align: center;
+      background-color: rgb(222, 115, 195);
+    }
+    img {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+      border: 4px solid rgb(222, 115, 195);
+    }
+    p {
+      text-align: center;
+      background-color: rgb(222, 115, 195);
+    }
+    footer {
+      background-color: rgb(222, 115, 195);
+      color: black;
+    }
