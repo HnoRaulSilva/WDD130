@@ -72,13 +72,11 @@ nav a:hover {
     background-color: #188c43;
     color:black;
     text-decoration: none;
-    text-align: none;
     }
     h3 a:hover {
             background-color: #daf334;
             color: black;
             text-decoration: underline;
-            text-align: none;
         }
 .logo {
     width: 80px;
