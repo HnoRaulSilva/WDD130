@@ -76,7 +76,7 @@ nav a:hover {
     h3 a:hover {
             background-color: #daf334;
             color: black;
-            text-decoration: underline;
+            text-decoration: none;
         }
 .logo {
     width: 80px;
