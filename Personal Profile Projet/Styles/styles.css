@@ -8,24 +8,31 @@
 }
 body {
   text-align: center;
+  margin: 50px auto;
 }
 nav {
   text-align: center;
   background-color: steelblue;
-  padding: 10px;
+  padding: 25px;
 }
 a{
     font-size: 1.5em;
     color: white;
     margin: 40px;
+    padding: 25px;
   }
   h1 {
     text-align: center;
     color: steelblue;
+    margin: 50px 0;
   }
   img {
     width: 80%;
     border: 4px solid steelblue;
+    border-top-right-radius: 5ex;
+    border-top-left-radius: 5ex;
+    border-bottom-right-radius: 5ex;
+    border-bottom-left-radius: 5ex;
   }
   p {
     padding: 10px;
@@ -33,4 +40,7 @@ a{
   footer {
     background-color: steelblue;
     color: white;
+  }
+  footer p {
+    padding: 25px;
   }
