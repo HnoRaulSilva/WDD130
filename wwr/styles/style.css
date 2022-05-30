@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;1,100&family=Rock+Salt&display=swap');
 
 root {
     --heading-font: "Rock Salt";
-    --paragraph-font: Rock Salt, Lobster, sans-serif;
+    --paragraph-font: "Rock Salt", "Lobster", "Roboto";
 }
 
 #content{ 
@@ -12,7 +12,7 @@ root {
     }
 
 .home-title {
-        font-family: 'Rock Salt',  sans-serif;
+        font-family: 'Rock Salt', 'Roboto';
         font-size: 2em;
         margin-top: 10px;
     }
@@ -47,14 +47,14 @@ nav a {
     }
 body {
     background-color: #6b41b4; 
-    font-family: 'Lobster', sans-serif;
+    font-family: 'Lobster', 'Roboto';
     color: black;
     font-size: 22px;
     margin: 0;
     padding: 0; 
     }
 h2 {
-    font-family: 'Rock Salt', sans-serif;
+    font-family: 'Rock Salt', 'Roboto';
     margin: 0;
     }
 header {
@@ -97,7 +97,7 @@ nav a:hover {
 .msg {
     background-color: #188c43;
     color: black;
-    font-family: "Lobster", sans-serif;
+    font-family: 'Lobster', 'Roboto';
     font-size: .8em; 
     line-height: 1.5em;
     padding: 35px;
