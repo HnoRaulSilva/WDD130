@@ -182,35 +182,33 @@ nav a:hover {
 }
 .rivers-card {
     display: grid;
-    grid-template-columns: 2/4;
-    grid-template-rows: 2/3;
+    grid-column: 2/4;
+    grid-row: 2/3;
     text-align: auto;
     
     }
 .camping-card {
-    display: grid;
-    grid-template-columns: 5/7;
-    grid-template-rows: 2/3;
+    grid-column: 5/7;
+    grid-row: 2/3;
     text-align: auto;
     
     } 
 
 .rapids-card {
-    display: grid;
-    grid-template-columns: 8/10;
-    grid-template-rows: 2/3;
+    grid-column: 8/10;
+    grid-row: 2/3;
     text-align: auto;
     
     } 
 
 #background {
-    grid-template-columns: 1fr 11fr;
-    grid-template-rows: 4fr 9fr;
+    grid-column: 1/11;
+    grid-row: 4/9;
+    text-align: auto;
+    
     }
 
 .mountains {
-    grid-template-columns: 2fr 7fr;
-    grid-template-rows: 5fr 8fr;
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
@@ -218,8 +216,6 @@ nav a:hover {
     }
     
 .msg {
-    grid-template-columns: 6fr 10fr;
-    grid-template-rows: 6fr 7fr;
     background-color: #6f7364;
     padding: 35px;
     grid-column: 6/10;
