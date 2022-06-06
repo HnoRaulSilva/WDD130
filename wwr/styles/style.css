@@ -170,7 +170,7 @@ footer {
         width: 100%;
     }
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px, 0;
+    margin: 200px 0px;
 }
 .card-img {
     border: 10px solid #d9c2a3;
