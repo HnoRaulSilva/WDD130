@@ -41,7 +41,7 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(Rock Salt);
+  font-family: var(Roboto);
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -63,7 +63,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(Rock Salt);
+  font-family: var(Roboto);
   color: var(--paragraph-color);
   padding: 1em;
 }
