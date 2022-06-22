@@ -63,6 +63,10 @@ nav a {
         text-align: center;
         color: white;
     }
+#rivers-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+}
 main section {
     text-align: center;
     }
@@ -77,12 +81,14 @@ body {
     color: white;
     font-size: 22px;
     margin: 10px 10px 10px 10px;
+    grid-column: 2/3"
     }
 h2, p {
     font-family: 'Rock Salt', 'Roboto';
     margin: 20px;
     margin-right: 80px;
     margin-left: 80px;
+    grid-column: 1/2;
     }
 header {
     display: grid;
