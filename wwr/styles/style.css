@@ -74,14 +74,16 @@ main section {
 body {
     background-color: #6b41b4; 
     font-family: 'Lobster', 'Roboto';
-    color: black;
+    color: white;
     font-size: 22px;
-    margin: 0;
-    padding: 0; 
+    margin: 120;
+    padding: 120; 
     }
-h2 {
-    font-family: 'Rock Salt', 'Roboto';
-    margin: 0;
+h2, p {
+    font-family: 'Rock Salt', 'Lobster';
+    margin: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
     }
 header {
     display: grid;
