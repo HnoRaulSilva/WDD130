@@ -67,6 +67,19 @@ nav a {
         display: grid;
         grid-template-columns: 2fr 1fr;
 }
+.map {
+    grid-column: 2/3;
+}
+#Stars-img {
+    grid-column: 2/3;
+}
+#Stars-rate {
+    grid-column: 2/3;
+}
+.Riversh2 {
+    grid-row: 1/7;
+    margin-top: 10px;
+}
 main section {
     text-align: center;
     }
