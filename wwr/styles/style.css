@@ -76,9 +76,18 @@ nav a {
 #Stars-rate {
     grid-column: 2/3;
 }
+.book1 {
+    grid-column: 2/3;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}   
 .Riversh2 {
     grid-row: 1/7;
     margin-top: 10px;
+    
 }
 main section {
     text-align: center;
