@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;1,100&family=Rock+Salt&display=swap');
+
+header {
+    display: grid;
+    grid-template-columns: 250px auto;
+    padding-bottom: 25px;
+    }
+nav {
+    grid-row: 2 / 3; 
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: space-around;
+    } 
+nav a {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #396E94;
+    text-decoration: none;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
+.pic-img {
+max-width: 80%;
+}
+.pro-img {
+    max-width: 100%;
+    }
+footer {
+    border-top: 2px #396E94 solid;
+    display: grid;
+    grid-template-columns: 50% 50%;  
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+}
